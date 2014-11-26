@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Hidden message</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+        <style>
+
+            body {
+                background-color: #F5EBDB;
+                margin: 0;
+                height: 100vh;
+                width: 100%;
+            }
+
+            #instructions {
+                padding-top: 20px;
+                font-family: 'Maven Pro', sans-serif;
+                margin-left: 80px;
+            }
+
+            .fixed_container {
+                position: fixed;
+                margin: 175px 0 0 98px;
+            }
+
+            .scroll_container {
+                margin-left: 80px;
+                position: absolute;
+                top: 850px;
+                height: 1000px;
+            }
+            
+            .quote {
+               font-family: monospace;
+                font-size: 30px;
+            }
+
+            #author {
+                color: rgb(111, 107, 107);
+                text-align: right;
+                display: block;
+                font-family: 'Maven Pro', sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+
+    <!--If you smile when no one is around, you really mean it.  -Andy Rooney
+
+        I _ o _ m l _ h n n _ n _ s a o n ,
+         f y u s i e w e _ o o e i _ r u d
+
+        y u r a l _ e n i .
+         o _ e l y m a _ t-->
+
+         <div class="wrapper">
+            <p id="instructions">Scroll down to reveal the hidden message.</p>
+            <div class="fixed_container">
+                <div class="quote">
+                    <p>I &nbsp; o &nbsp; m l &nbsp; h n n &nbsp; n &nbsp; s a o n ,</p>
+                    <p>y u r a l &nbsp; e n i .</p>
+                </div>
+
+            </div>
+
+            <div class="scroll_container">
+                <div class="quote">
+                    <p>&nbsp; f y u s i e w e &nbsp; o o e i &nbsp; r u d</p>
+                    <p>&nbsp; o &nbsp; e l y m a &nbsp; t</p>
+
+                </div>
+                <span id="author"> -Andy Rooney</span>
+            </div>
+        </div>
+
+    </body>
+</html>
