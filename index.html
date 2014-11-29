@@ -8,25 +8,26 @@
         <style>
 
             body {
-                background-color: #F5EBDB;
+                background-color: #FAF7F1;
                 margin: 0;
                 height: 100vh;
                 width: 100%;
             }
 
             #instructions {
-                padding-top: 20px;
+                padding-top: 100px;
                 font-family: 'Maven Pro', sans-serif;
                 margin-left: 80px;
             }
 
             .fixed_container {
                 position: fixed;
-                margin: 175px 0 0 98px;
+                margin: 50px 0 0 98px;
+
             }
 
             .scroll_container {
-                margin-left: 80px;
+                margin-left: 79px;
                 position: absolute;
                 top: 850px;
                 height: 1000px;
@@ -34,7 +35,7 @@
             
             .quote {
                font-family: monospace;
-                font-size: 30px;
+                font-size: 33px;
             }
 
             #author {
@@ -42,37 +43,49 @@
                 text-align: right;
                 display: block;
                 font-family: 'Maven Pro', sans-serif;
+                font-size: 20px;
+                padding-top: 25px;
             }
 
         </style>
     </head>
     <body>
 
-    <!--If you smile when no one is around, you really mean it.  -Andy Rooney
+    <!-- Pretending to know everything
+         closes the door to finding out
+         what's really there.
 
-        I _ o _ m l _ h n n _ n _ s a o n ,
-         f y u s i e w e _ o o e i _ r u d
+         P e e d n _ o k o _ v r t i g
+         _r t n i g t _ n w e e y h n
 
-        y u r a l _ e n i .
-         o _ e l y m a _ t-->
+         _l s s t e d o _ o f n i g o t
+         c o e _ h _ o r t _ i d n _ u
+
+         w a ' _ e l y t e e
+         _h t s r a l _ h r . -->
+
 
          <div class="wrapper">
+
             <p id="instructions">Scroll down to reveal the hidden message.</p>
+
             <div class="fixed_container">
                 <div class="quote">
-                    <p>I &nbsp; o &nbsp; m l &nbsp; h n n &nbsp; n &nbsp; s a o n ,</p>
-                    <p>y u r a l &nbsp; e n i .</p>
+                    <p>P e e d n &nbsp; o k o &nbsp; v r t i g</p>
+                    <p>&nbsp;l s s t e d o &nbsp; o f n i g o t</p>
+                    <p>w a ' &nbsp; e l y t e e</p>
                 </div>
-
             </div>
 
             <div class="scroll_container">
                 <div class="quote">
-                    <p>&nbsp; f y u s i e w e &nbsp; o o e i &nbsp; r u d</p>
-                    <p>&nbsp; o &nbsp; e l y m a &nbsp; t</p>
-
+                    <p>&nbsp; r t n i g t &nbsp; n w e e y h n</p>
+                    <p>&nbsp;c o e &nbsp; h &nbsp; o r t &nbsp; i d n &nbsp; u</p>
+                    <p>&nbsp; h t s r a l &nbsp; h r .</p>
                 </div>
-                <span id="author"> -Andy Rooney</span>
+
+                <span id="author"> -Neil deGrasse Tyson</span>
+                
             </div>
         </div>
 
